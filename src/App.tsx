@@ -1,3 +1,5 @@
+import AboutMain from './components/AboutMain';
+import TopSales from './components/TopSales';
 import logo from './img/logo.svg'
 
 function App() {
@@ -32,124 +34,8 @@ function App() {
         </div>
     </header>
 
-    <main className="contenedor seccion">
-        <h1>Más Sobre Nosotros</h1>
-
-        <div className="iconos-nosotros">
-            <div className="icono">
-                <img src="build/img/icono1.svg" alt="Icono seguridad" loading="lazy"/>
-                <h3>Seguridad</h3>
-                <p>Possimus, suscipit repudiandae. Autem deserunt aliquid deleniti sit minus consectetur obcaecati molestiae dolorem natus dolores reiciendis tempore, explicabo cum nobis laudantium. Voluptates?</p>
-            </div>
-            <div className="icono">
-                <img src="build/img/icono2.svg" alt="Icono Precio" loading="lazy"/>
-                <h3>Precio</h3>
-                <p>Possimus, suscipit repudiandae. Autem deserunt aliquid deleniti sit minus consectetur obcaecati molestiae dolorem natus dolores reiciendis tempore, explicabo cum nobis laudantium. Voluptates?</p>
-            </div>
-            <div className="icono">
-                <img src="build/img/icono3.svg" alt="Icono Tiempo" loading="lazy"/>
-                <h3>A Tiempo</h3>
-                <p>Possimus, suscipit repudiandae. Autem deserunt aliquid deleniti sit minus consectetur obcaecati molestiae dolorem natus dolores reiciendis tempore, explicabo cum nobis laudantium. Voluptates?</p>
-            </div>
-        </div>
-    </main>
-
-    <div className="seccion contenedor">
-        <h2>Casas y Depas en Venta</h2>
-
-        <div className="contenedor-anuncios">
-            <div className="anuncio">
-                    <img loading="lazy" src="build/img/anuncio1.jpg" alt="anuncio"/>
-
-                <div className="contenido-anuncio">
-                    <h3>Casa de Lujo en el Lago</h3>
-                    <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-                    <p className="precio">$3,0000,000</p>
-
-                    <ul className="iconos-caracteristicas">
-                        <li>
-                            <img className="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc"/>
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img className="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img className="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones"/>
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="anuncio.html" className="boton-amarillo-block">
-                        Ver Propiedad
-                    </a>
-                </div>
-            </div>
-
-            <div className="anuncio">
-              <img loading="lazy" src="build/img/anuncio2.jpg" alt="anuncio"/>
-
-                <div className="contenido-anuncio">
-                    <h3>Casa terminados de lujo</h3>
-                    <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-                    <p className="precio">$3,0000,000</p>
-
-                    <ul className="iconos-caracteristicas">
-                        <li>
-                            <img className="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc"/>
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img className="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img className="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones"/>
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="anuncio.html" className="boton-amarillo-block">
-                        Ver Propiedad
-                    </a>
-                </div>
-            </div>
-
-            <div className="anuncio">
-               <img loading="lazy" src="build/img/anuncio3.jpg" alt="anuncio"/>
-
-                <div className="contenido-anuncio">
-                    <h3>Casa con alberca</h3>
-                    <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-                    <p className="precio">$3,0000,000</p>
-
-                    <ul className="iconos-caracteristicas">
-                        <li>
-                            <img className="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc"/>
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img className="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img className="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones"/>
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="anuncio.html" className="boton-amarillo-block">
-                        Ver Propiedad
-                    </a>
-                </div>      {/* <!--.contenido-anuncio--> */}
-            </div>
-        </div> 
-
-        <div className="alinear-derecha">
-            <a href="anuncios.html" className="boton-verde">Ver Todas</a>
-        </div>
-    </div>
+    <AboutMain/>     
+    <TopSales/>
 
     <section className="imagen-contacto">
         <h2>Encuentra la casa de tus sueños</h2>
