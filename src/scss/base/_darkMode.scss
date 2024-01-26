@@ -2,7 +2,7 @@
     background-color: darken($grisOscuro, 10);
 
     p {
-        color: $blanco;
+        color: $white;
     }
 
     a, h1,h2,h3,h4  {
@@ -24,7 +24,7 @@
     
 
     .texto-nosotros blockquote {
-        color: $blanco;
+        color: $white;
     }
    
     .formulario {
@@ -39,7 +39,7 @@
         select {
             background-color: $grisOscuro;
             border: 1px solid $grisOscuro;
-            color: $blanco;
+            color: $white;
         }
     }
 

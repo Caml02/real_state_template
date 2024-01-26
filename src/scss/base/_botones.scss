@@ -2,3 +2,18 @@
 .btn-block {
     display: block;
 }
+
+.btn {
+    margin-bottom: 0;
+    color: $white;
+    background-color: $orange;
+    text-align: center;
+    font-weight: $bold;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    font-size: 14px;
+    &:hover {
+        background-color: darken($orange, 10);
+        color: $white;
+    }
+}

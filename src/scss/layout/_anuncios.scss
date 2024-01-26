@@ -24,11 +24,12 @@
     font-size: 3rem;
 }
 
-.iconos-caracteristicas {
+.icons {
     display: flex;
     list-style: none;
     padding: 0;
     max-width: 40rem;
+    text-align: center;
 
     li {
         flex: 1;
@@ -41,5 +42,21 @@
         p {
             font-weight: $black;
         }
+    }
+}
+
+#AllPropertiesButton {
+    font-weight: $black;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 1rem;
+    background-color: $verde;
+    color: $white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    &:hover {
+        background-color: darken($verde, 10);
     }
 }

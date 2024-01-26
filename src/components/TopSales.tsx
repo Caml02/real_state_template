@@ -1,6 +1,6 @@
 const TopSales = () => {
     return (
-        <div className="container-fluid">
+        <div className="container">
             <h2 className="mb-5">Casas y Depas en Venta</h2>
             <div className="row">
                 <div className="col-sm-12 col-xl-4 mb-3">
@@ -13,17 +13,17 @@ const TopSales = () => {
                             <div className="card-text">
                                 <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
                                 <p className="precio">$3,0000,000</p>
-                                <ul className="iconos-caracteristicas">
+                                <ul className="icons">
                                     <li>
-                                        <img className="icono" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                        <img className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icono" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                        <img className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icono" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                        <img className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
                                         <p>4</p>
                                     </li>
                                 </ul>
@@ -48,17 +48,17 @@ const TopSales = () => {
                             <div className="card-text">
                                 <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
                                 <p className="precio">$3,0000,000</p>
-                                <ul className="iconos-caracteristicas">
+                                <ul className="icons">
                                     <li>
-                                        <img className="icono" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                        <img className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icono" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                        <img className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icono" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                        <img className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
                                         <p>4</p>
                                     </li>
                                 </ul>
@@ -82,22 +82,22 @@ const TopSales = () => {
                             <div className="card-text">
                                 <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
                                 <p className="precio">$3,0000,000</p>
-                                <ul className="iconos-caracteristicas">
+                                <ul className="icons">
                                     <li>
-                                        <img className="icono" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                        <img className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icono" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                        <img className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icono" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                        <img className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
                                         <p>4</p>
                                     </li>
                                 </ul>
 
-                                <a className="btn btn-warning btn-lg btn-block">
+                                <a id="PropertyButton" className="btn btn-warning btn-lg btn-block">
                                     Ver Propiedad
                                 </a>
                             </div>
@@ -105,8 +105,8 @@ const TopSales = () => {
                     </div>
                 </div>
 
-                <div className="text-end">
-                    <a href="anuncios.html" role="button" className="btn btn-success btn-lg">Ver Todas</a>
+                <div className="text-end mb-4">
+                    <a id="AllPropertiesButton" href="anuncios.html" role="button" className="btn btn-success btn-lg">Ver Todas</a>
                 </div>  
             </div>
         </div>
