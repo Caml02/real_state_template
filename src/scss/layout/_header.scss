@@ -34,4 +34,11 @@
         line-height: 2;
         max-width: 60rem;
     }
+
+    .btn {
+        background-color: transparent;
+        color: $white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
 }

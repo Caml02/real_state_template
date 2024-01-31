@@ -3,22 +3,12 @@
 
 
 .footer {
-    padding: v.$separacion;
     background-color: v.$grisOscuro;
     margin-bottom: 0;
 
-    .contenedor-footer {
-        padding-top: v.$separacion;
-    }
-
-    .navegacion {
-        visibility: visible;
-        opacity: 1;
-        height: auto;
-    }
-
-    .copyright {
+    p, a {
         color: v.$white;
         text-align: center;
     }
+
 }
