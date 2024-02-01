@@ -1,4 +1,3 @@
-// utils.ts
 const darkMode = (): void => {
     document.querySelector("body")?.setAttribute("data-bs-theme", "dark");
     document.querySelector("#dm-icon")?.setAttribute("class", "bi bi-sun-fill");
