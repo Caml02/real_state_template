@@ -17,18 +17,31 @@ function App() {
                     <img src={logo} alt="Logotipo de Bienes Raices"/>
                 </a>
 
-                <div className="mobile-menu">
-                    <img src="/src/img/barras.svg" alt="icono menu responsive"/>
-                </div>
-
                 <div className="derecha">
-                    <button onClick={changeMode} className='btn'><i id="dm-icon" className="bi bi-moon-fill"></i></button>
-                    <nav className="navegacion">
+                    <button onClick={changeMode} className='btn'><i id="dm-icon" className="bi bi-moon-fill mb-2"></i></button>
+                    <button className="btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaNavBar" aria-controls="offCanvaNavBar">
+                        <i className="bi bi-list"></i>
+                    </button>
+                    <div className="offcanvas offcanvas-start d-flex" data-bs-backdrop="static" tabIndex={-1} id="offCanvaNavBar" aria-labelledby="offCanvaNavBarLabel">
+                        <div className="offcanvas-header">
+                            <h2 className="offcanvas-title" id="offCanvaNavBarLabel">Bienes Raíces</h2>
+                            <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div className="offcanvas-body">  
+                            <ul className='list-group list-group-flush mx-3 mt-4'>
+                                <a className="nav-item list-group-item list-group-item-action py-2 ripple active" href="#">Nosotros</a>
+                                <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="#">Anuncios</a>
+                                <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="#">Blog</a>
+                                <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="#">Contacto</a>
+                            </ul>      
+                        </div>                  
+                    </div>
+                    <div className="navegacion d-lg-block">
                         <a href="nosotros.html">Nosotros</a>
                         <a href="anuncios.html">Anuncios</a>
                         <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
-                    </nav>
+                        <a href="contacto.html">Contacto</a>        
+                    </div>
                 </div>
    
                 
