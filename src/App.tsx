@@ -18,11 +18,17 @@ function App() {
                 </a>
 
                 <div className="derecha">
-                    <button onClick={changeMode} className='btn'><i id="dm-icon" className="bi bi-moon-fill mb-2"></i></button>
-                    <button className="btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaNavBar" aria-controls="offCanvaNavBar">
+                    <button onClick={changeMode} className='btn mb-2'><i id="dm-icon" className="bi bi-moon-fill mb-2"></i></button>
+                    <button className="btn d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaNavBar" aria-controls="offCanvaNavBar">
                         <i className="bi bi-list"></i>
                     </button>
-                    <div className="offcanvas offcanvas-start d-flex" data-bs-backdrop="static" tabIndex={-1} id="offCanvaNavBar" aria-labelledby="offCanvaNavBarLabel">
+                    <div className="navegacion d-lg-flex">
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="anuncios.html">Anuncios</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contacto.html">Contacto</a>        
+                    </div>
+                    <div className="offcanvas offcanvas-start" data-bs-backdrop="static" tabIndex={-1} id="offCanvaNavBar" aria-labelledby="offCanvaNavBarLabel">
                         <div className="offcanvas-header">
                             <h2 className="offcanvas-title" id="offCanvaNavBarLabel">Bienes Raíces</h2>
                             <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -35,12 +41,6 @@ function App() {
                                 <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="#">Contacto</a>
                             </ul>      
                         </div>                  
-                    </div>
-                    <div className="navegacion d-lg-block">
-                        <a href="nosotros.html">Nosotros</a>
-                        <a href="anuncios.html">Anuncios</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>        
                     </div>
                 </div>
    
