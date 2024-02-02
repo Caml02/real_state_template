@@ -2,7 +2,8 @@ import { changeMode } from "../../utils/DarkMode";
 
 const ContactUs = () => {
     return (
-        <header className="header">
+        <div>
+            <header className="header">
                 <div className="contenedor contenido-header">
                     <div className="barra">
                         <a href="/">
@@ -20,11 +21,85 @@ const ContactUs = () => {
                                 <a href="/Adds">Anuncios</a>
                                 <a href="/Blog">Blog</a>
                             </div>
-                        </div>
-                        
+                        </div>    
                     </div> 
                 </div>
             </header>
+
+            <div className="container">
+            <h1>Contacto</h1>
+
+            <img loading="lazy" src="/src/img/destacada3.jpg" alt="Imagen Contacto"/>
+            <h2 className="mt-2">Llene el formulario de Contacto</h2>
+
+            <form className="row">
+                <div className="col-xl-12">
+                    <legend>Información Personal</legend>
+
+                    <label htmlFor="nombre">Nombre</label>
+                    <input className="form-control" type="text" placeholder="Tu Nombre" id="nombre" required/>
+                    <div className="valid-tooltip">
+                        ¡Se ve bien!
+                    </div>
+
+                    <label htmlFor="email">E-mail</label>
+                    <input className="form-control" type="email" placeholder="Tu Email" id="email" required/>
+                    <div className="valid-tooltip">
+                        ¡Se ve bien!
+                    </div>
+
+                    <label htmlFor="telefono">Teléfono</label>
+                    <input className="form-control" type="tel" placeholder="Tu Teléfono" id="telefono" required/>
+
+                    <label htmlFor="mensaje">Mensaje:</label>
+                    <textarea className="form-control" id="mensaje"></textarea>
+                </div>
+
+                <div className="row col-xl-12">
+                <legend>Información sobre la propiedad</legend>
+
+                <label htmlFor="opciones">Vende o Compra:</label>
+                <select id="opciones" required>
+                    <option value="" disabled selected>-- Seleccione --</option>
+                    <option value="Compra">Compra</option>
+                    <option value="Vende">Vende</option>
+                </select>
+
+                <label htmlFor="presupuesto">Precio o Presupuesto</label>
+                <input className="form-control" type="number" placeholder="Tu Precio o Presupuesto" id="presupuesto" required/>
+
+            </div>
+
+            <div className="row col-xl-12">
+                <legend>Información sobre la propiedad</legend>
+
+                <p>Como desea ser contactado</p>
+
+                <div className="form-check">
+                    <input className="form-check-input" name="contacto" type="radio" value="telefono" id="contactar-telefono" />
+                    <label className="form-check-label"  htmlFor="contactar-telefono">Teléfono</label>
+                </div>
+                <div className="form-check mb-3">
+                    <input className="form-check-input" name="contacto" type="radio" value="email" id="contactar-email" />
+                    <label className="form-check-label" htmlFor="contactar-email">E-mail</label>
+                </div>
+
+                <p>Si eligió teléfono, elija la fecha y la hora</p>
+
+                <label htmlFor="fecha">Fecha:</label>
+                <input className="form-control" type="date" id="fecha" />
+
+                <label htmlFor="hora">Hora:</label>
+                <input className="form-control" type="time" id="hora" min="09:00" max="18:00" />
+                
+            </div>
+            <div className="col-12">
+                <button type="submit" className="mt-4 btn btn-success btn-lg " >Enviar</button>
+            </div>
+
+                </form>
+            </div>
+        </div>
     )
 }
 

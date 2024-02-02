@@ -1,10 +1,10 @@
-import AboutMain from '../components/Main/AboutMain.js';
-import BlogMain from '../components/Main/BlogMain.js';
-import ContactMain from '../components/Main/ContactMain.js';
-import Footer from '../components/Main/Footer.js';
-import TopSales from '../components/Main/TopSales.js';
-import logo from '../img/logo.svg'
-import {changeMode} from '../utils/DarkMode.js';
+import AboutMain from './AboutMain.js';
+import BlogMain from './BlogMain.js';
+import ContactMain from './ContactMain.js';
+import Footer from './Footer.js';
+import TopSales from './TopSales.js';
+import logo from '../../img/logo.svg'
+import {changeMode} from '../../utils/DarkMode.js';
 
 function Main() {
 

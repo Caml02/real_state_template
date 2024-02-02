@@ -1,4 +1,4 @@
-import Main from './components/Main';
+import Main from './components/Main/Main';
 import ContactUs from './components/Contact/ContactUs';
 import { Routes, Route } from 'react-router-dom';
 import AboutUs from './components/AboutUs/AboutUs';
