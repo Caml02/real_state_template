@@ -10,7 +10,7 @@ const ContactUs = () => {
                             <img src="/src/img/logo.svg" alt="Logotipo de Bienes Raices"/>
                         </a>
 
-                        <div className="derecha">
+                        <div className="derecha mb-4">
                         <button onClick={changeMode} className='btn mb-2'><i id="dm-icon" className="bi bi-moon-fill mb-2"></i></button>
                             <button className="btn d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaNavBar" aria-controls="offCanvaNavBar">
                                 <i className="bi bi-list"></i>
@@ -99,6 +99,32 @@ const ContactUs = () => {
 
                 </form>
             </div>
+
+            {/** FOOTER */}
+
+
+            <div className="footer">
+                <div className="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p>Todos los derechos reservados 2024 ©</p>
+                    <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li>
+                            <a href="/" className="ms-3">Inicio</a>
+                        </li>
+                        <li className="ms-3">
+                            <a href="/AboutUs">Nosotros</a>
+                        </li>
+                        <li className="ms-3">
+                            <a href="/Adds">Anuncios</a>
+                        </li>
+                        <li className="ms-3">
+                            <a href="/Blog">Blog</a>
+                        </li>
+                        <li className="ms-3">
+                            <a href="/privacy">Terms - Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
         </div>
     )
 }

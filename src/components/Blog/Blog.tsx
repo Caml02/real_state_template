@@ -10,7 +10,7 @@ const Blog = () => {
                             <img src="/src/img/logo.svg" alt="Logotipo de Bienes Raices"/>
                         </a>
 
-                        <div className="derecha">
+                        <div className="derecha mb-4">
                         <button onClick={changeMode} className='btn mb-2'><i id="dm-icon" className="bi bi-moon-fill mb-2"></i></button>
                             <button className="btn d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaNavBar" aria-controls="offCanvaNavBar">
                                 <i className="bi bi-list"></i>
@@ -39,7 +39,106 @@ const Blog = () => {
                         </div>
                     </div> 
                 </div>
-            </header>        
+            </header>    
+
+            <div className="contenedor seccion contenido-centrado">
+                <h1>Nuestro Blog</h1>
+
+                <article className="entrada-blog">
+                    <div className="imagen">
+                            <img loading="lazy" src="/src/img/blog1.jpg" alt="Texto Entrada Blog"/>
+                    </div>
+
+                    <div className="texto-entrada">
+                        <a href="entrada.html" className="text-black">
+                            <h4>Terraza en el techo de tu casa</h4>
+                            <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+
+                            <p>
+                                Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
+                            </p>
+                        </a>
+                    </div>
+                </article>
+
+                <article className="entrada-blog">
+                    <div className="imagen">
+                        <img loading="lazy" src="/src/img/blog2.jpg" alt="Texto Entrada Blog" />
+                    </div>
+
+                    <div className="texto-entrada">
+                        <a href="entrada.html" className="text-black">
+                            <h4>Guía para la decoración de tu hogar</h4>
+                            <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+
+                            <p>
+                                Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
+                            </p>
+                        </a>
+                    </div>
+                </article>
+
+                <article className="entrada-blog">
+                    <div className="imagen">
+                        <img loading="lazy" src="/src/img/blog3.jpg" alt="Texto Entrada Blog" />
+                    </div>
+
+                    <div className="texto-entrada">
+                        <a href="entrada.html" className="text-black">
+                            <h4>Terraza en el techo de tu casa</h4>
+                            <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+
+                            <p>
+                                Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
+                            </p>
+                        </a>
+                    </div>
+                </article>
+
+                <article className="entrada-blog">
+                    <div className="imagen">
+                            <img loading="lazy" src="/src/img/blog4.jpg" alt="Texto Entrada Blog" />
+                    </div>
+
+                    <div className="texto-entrada">
+                        <a href="entrada.html" className="text-black">
+                            <h4>Guía para la decoración de tu hogar</h4>
+                            <p>Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
+
+                            <p>
+                                Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
+                            </p>
+                        </a>
+                    </div>
+                </article>
+            </div>  
+
+            {/**FOOTER */}
+
+
+            <div className="footer">
+                <div className="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p>Todos los derechos reservados 2024 ©</p>
+                    <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        
+                        <li>
+                            <a href="/" className="ms-3">Inicio</a>
+                        </li>
+                        <li className="ms-3">
+                            <a href="/AboutUs">Nosotros</a>
+                        </li>
+                        <li className="ms-3">
+                            <a href="/Adds">Anuncios</a>
+                        </li>
+                        <li className="ms-3">
+                            <a href="/ContactUs">Contacto</a>
+                        </li>
+                        <li className="ms-3">
+                            <a href="/privacy">Terms - Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
         </div>
     )
 }

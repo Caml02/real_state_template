@@ -10,7 +10,7 @@ const Adds = () => {
                             <img src="/src/img/logo.svg" alt="Logotipo de Bienes Raices"/>
                         </a>
 
-                        <div className="derecha">
+                        <div className="derecha mb-4">
                         <button onClick={changeMode} className='btn mb-2'><i id="dm-icon" className="bi bi-moon-fill mb-2"></i></button>
                             <button className="btn d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaNavBar" aria-controls="offCanvaNavBar">
                                 <i className="bi bi-list"></i>
