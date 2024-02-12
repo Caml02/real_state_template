@@ -6,7 +6,7 @@ const BlogMain = () => {
 
                 <div className="entrada-blog">
                     <div className="imagen">
-                        <a href="">
+                        <a href="/BlogReview">
                             <img loading="lazy" src="/src/img/blog1.jpg" alt="Texto Entrada Blog"/>
                         </a>
                     </div>
@@ -25,7 +25,7 @@ const BlogMain = () => {
 
                 <article className="entrada-blog">
                     <div className="imagen">
-                    <a href="">
+                    <a href="/BlogReview">
                         <img loading="lazy" src="/src/img/blog2.jpg" alt="Texto Entrada Blog"/>
                     </a>
                     </div>

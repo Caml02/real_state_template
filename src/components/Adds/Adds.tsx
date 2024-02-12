@@ -76,7 +76,7 @@ const Adds = () => {
                                         </li>
                                     </ul>
 
-                                    <a className="btn orangeBtn btn-lg btn-block">
+                                    <a href="/Add" className="btn orangeBtn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>
@@ -112,7 +112,7 @@ const Adds = () => {
                                             </li>
                                         </ul>
 
-                                        <a className="orangeBtn btn btn-lg btn-block">
+                                        <a href="/Add" className="orangeBtn btn btn-lg btn-block">
                                             Ver Propiedad
                                         </a>
                                     </div>
@@ -148,7 +148,7 @@ const Adds = () => {
                                         </li>
                                     </ul>
 
-                                    <a id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
+                                    <a href="/Add" id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>
@@ -183,7 +183,7 @@ const Adds = () => {
                                         </li>
                                     </ul>
 
-                                    <a className="btn orangeBtn btn-lg btn-block">
+                                    <a href="/Add" className="btn orangeBtn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>
@@ -219,7 +219,7 @@ const Adds = () => {
                                             </li>
                                         </ul>
 
-                                        <a className="orangeBtn btn btn-lg btn-block">
+                                        <a href="/Add" className="orangeBtn btn btn-lg btn-block">
                                             Ver Propiedad
                                         </a>
                                     </div>
@@ -255,7 +255,7 @@ const Adds = () => {
                                         </li>
                                     </ul>
 
-                                    <a id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
+                                    <a href="/Add" id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>

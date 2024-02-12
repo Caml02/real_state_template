@@ -47,7 +47,7 @@ const Blog = () => {
 
                 <article className="entrada-blog">
                     <div className="imagen">
-                        <a href="">
+                        <a href="/BlogReview">
                             <img loading="lazy" src="/src/img/blog1.jpg" alt="Texto Entrada Blog"/>
                         </a>
                     </div>
@@ -64,7 +64,7 @@ const Blog = () => {
 
                 <div className="entrada-blog">
                     <div className="imagen">
-                        <a href="">
+                        <a href="/BlogReview">
                             <img loading="lazy" src="/src/img/blog2.jpg" alt="Texto Entrada Blog" />
                         </a>
                     </div>
@@ -81,7 +81,7 @@ const Blog = () => {
 
                 <article className="entrada-blog">
                     <div className="imagen">
-                        <a href="">
+                        <a href="/BlogReview">
                            <img loading="lazy" src="/src/img/blog3.jpg" alt="Texto Entrada Blog" />
                         </a>
                     </div>
@@ -98,7 +98,7 @@ const Blog = () => {
 
                 <article className="entrada-blog">
                     <div className="imagen">
-                        <a href="">
+                        <a href="/BlogReview">
                             <img loading="lazy" src="/src/img/blog4.jpg" alt="Texto Entrada Blog" />
                         </a>
                     </div>

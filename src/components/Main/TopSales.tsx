@@ -28,7 +28,7 @@ const TopSales = () => {
                                     </li>
                                 </ul>
 
-                                <a className="btn orangeBtn btn-lg btn-block">
+                                <a href="/Add" className="btn orangeBtn btn-lg btn-block">
                                     Ver Propiedad
                                 </a>
                             </div>
@@ -63,7 +63,7 @@ const TopSales = () => {
                                         </li>
                                     </ul>
 
-                                    <a className="orangeBtn btn btn-lg btn-block">
+                                    <a href="/Add" className="orangeBtn btn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>
@@ -97,7 +97,7 @@ const TopSales = () => {
                                     </li>
                                 </ul>
 
-                                <a id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
+                                <a href="/Add" id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
                                     Ver Propiedad
                                 </a>
                             </div>
@@ -106,7 +106,7 @@ const TopSales = () => {
                 </div>
 
                 <div className="text-end mb-4">
-                    <a id="AllPropertiesButton" href="anuncios.html" role="button" className="btn btn-lg">Ver Todas</a>
+                    <a id="AllPropertiesButton" href="/Adds" role="button" className="btn btn-lg">Ver Todas</a>
                 </div>  
             </div>
         </div>
