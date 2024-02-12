@@ -18,7 +18,7 @@ function Main() {
                 </a>
 
                 <div className="derecha mb-4">
-                    <button onClick={changeMode} className='btn mb-2'><i id="dm-icon" className="bi bi-moon-fill mb-2"></i></button>
+                    <button onClick={changeMode} className='theme-toggle-light btn mb-4 bi bi-sun-fill rounded-pill' id="dm-icon"></button>
                     <button className="btn d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaNavBar" aria-controls="offCanvaNavBar">
                         <i className="bi bi-list"></i>
                     </button>
@@ -35,10 +35,11 @@ function Main() {
                         </div>
                         <div className="offcanvas-body">  
                             <ul className='list-group list-group-flush mx-3 mt-4'>
-                                <a className="nav-item list-group-item list-group-item-action py-2 ripple active" href="#">Nosotros</a>
-                                <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="#">Anuncios</a>
-                                <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="#">Blog</a>
-                                <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="#">Contacto</a>
+                                <a className="nav-item list-group-item list-group-item-action py-2 ripple active" href="/">Inicio</a>
+                                <a className="nav-item list-group-item list-group-item-action py-2 ripple " href="/AboutUs">Nosotros</a>
+                                <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/Adds">Anuncios</a>
+                                <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/Blog">Blog</a>
+                                <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/ContactUs">Contacto</a>
                             </ul>      
                         </div>                  
                     </div>

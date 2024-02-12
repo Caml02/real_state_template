@@ -17,3 +17,40 @@
         color: $white;
     }
 }
+
+.theme-toggle-light {
+    cursor: pointer;
+    transition: all .2s ease-in-out;   
+    color: #e5a40b!important;
+    background-color: #fbee7b44;
+   
+    &:hover {
+       color: #fff!important;
+       background-color: darken(#e5a40b, 5% )!important;
+    }
+   }
+   
+   .theme-toggle-dark {
+       cursor: pointer;
+       transition: all .2s ease-in-out;   
+       color: #2a68f8!important;
+       background-color: #3254a13a;
+       border-radius: 50%;
+      
+       &:hover {
+          color: #fff!important;
+          background-color: darken(#2a68f8, 5% )!important;
+       }
+   }
+
+#dm-icon {
+    margin-bottom: .5rem!important;
+    margin-top: .5rem!important;
+    font-size: 1.5rem!important;
+
+    @include tablet {
+        margin-bottom: 2rem!important;
+        font-size: 1.5rem!important;
+    }
+}
+

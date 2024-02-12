@@ -11,7 +11,7 @@ const ContactUs = () => {
                         </a>
 
                         <div className="derecha mb-4">
-                        <button onClick={changeMode} className='btn mb-2'><i id="dm-icon" className="bi bi-moon-fill mb-2"></i></button>
+                        <button onClick={changeMode} className='theme-toggle-light btn bi bi-sun-fill rounded-pill' id="dm-icon"></button>
                             <button className="btn d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvaNavBar" aria-controls="offCanvaNavBar">
                                 <i className="bi bi-list"></i>
                             </button>
@@ -21,7 +21,22 @@ const ContactUs = () => {
                                 <a href="/Adds">Anuncios</a>
                                 <a href="/Blog">Blog</a>
                             </div>
-                        </div>    
+                        </div>
+                        <div className="offcanvas offcanvas-start" data-bs-backdrop="static" tabIndex={-1} id="offCanvaNavBar" aria-labelledby="offCanvaNavBarLabel">
+                            <div className="offcanvas-header">
+                                    <h2 className="offcanvas-title" id="offCanvaNavBarLabel">Bienes Raíces</h2>
+                                    <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div className="offcanvas-body">  
+                                <ul className='list-group list-group-flush mx-3 mt-4'>
+                                    <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/">Inicio</a>
+                                    <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/AboutUs">Nosotros</a>
+                                    <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/Adds">Anuncios</a>
+                                    <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/Blog">Blog</a>
+                                    <a className="nav-item list-group-item list-group-item-action py-2 ripple active" href="/ContactUs">Contacto</a>
+                                </ul>      
+                            </div>  
+                        </div>
                     </div> 
                 </div>
             </header>
@@ -104,7 +119,7 @@ const ContactUs = () => {
 
 
             <div className="footer">
-                <div className="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div className="container d-flex flex-wrap justify-content-between align-items-center py-5">
                     <p>Todos los derechos reservados 2024 ©</p>
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                         <li>

@@ -15,15 +15,15 @@ const TopSales = () => {
                                 <p className="precio">$3,0000,000</p>
                                 <ul className="icons">
                                     <li>
-                                        <img className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
                                         <p>4</p>
                                     </li>
                                 </ul>
@@ -40,34 +40,34 @@ const TopSales = () => {
                 <div className="col-sm-12 col-xl-4 mb-3">
                     <div className="card-block">
                         <div className="card bg-body-tertiary">
-                        <div className="card-body">
-                        <img loading="lazy" src="/src/img/anuncio2.jpg" alt="anuncio"/>
-                            <div className="card-title">
-                                <h3 className="m-4">Lake House</h3>
-                            </div>
-                            <div className="card-text">
-                                <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-                                <p className="precio">$3,0000,000</p>
-                                <ul className="icons">
-                                    <li>
-                                        <img className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
-                                        <p>3</p>
-                                    </li>
-                                    <li>
-                                        <img className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
-                                        <p>3</p>
-                                    </li>
-                                    <li>
-                                        <img className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
-                                        <p>4</p>
-                                    </li>
-                                </ul>
+                            <div className="card-body">
+                            <img loading="lazy" src="/src/img/anuncio2.jpg" alt="anuncio"/>
+                                <div className="card-title">
+                                    <h3 className="m-4">Lake House</h3>
+                                </div>
+                                <div className="card-text">
+                                    <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
+                                    <p className="precio">$3,0000,000</p>
+                                    <ul className="icons">
+                                        <li>
+                                            <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                            <p>3</p>
+                                        </li>
+                                        <li>
+                                            <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                            <p>3</p>
+                                        </li>
+                                        <li>
+                                            <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                            <p>4</p>
+                                        </li>
+                                    </ul>
 
-                                <a className="orangeBtn btn btn-lg btn-block">
-                                    Ver Propiedad
-                                </a>
+                                    <a className="orangeBtn btn btn-lg btn-block">
+                                        Ver Propiedad
+                                    </a>
+                                </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                 </div>
@@ -84,15 +84,15 @@ const TopSales = () => {
                                 <p className="precio">$3,0000,000</p>
                                 <ul className="icons">
                                     <li>
-                                        <img className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
                                         <p>4</p>
                                     </li>
                                 </ul>

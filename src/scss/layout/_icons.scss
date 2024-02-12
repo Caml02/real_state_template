@@ -14,3 +14,27 @@
         text-transform: uppercase;
     }
 }
+
+.icon-light {
+    text-align: center;
+  
+    img {
+        height: 10rem;
+    }
+    h3 {
+        text-transform: uppercase;
+    }
+    color: black!important;   
+}
+
+.icon-dark {
+    text-align: center;
+  
+    img {
+        height: 10rem;
+    }
+    h3 {
+        text-transform: uppercase;
+    }
+    color: rgb(153, 39, 39)!important;   
+}

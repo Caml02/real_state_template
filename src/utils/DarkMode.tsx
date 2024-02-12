@@ -1,11 +1,11 @@
 const darkMode = (): void => {
     document.querySelector("body")?.setAttribute("data-bs-theme", "dark");
-    document.querySelector("#dm-icon")?.setAttribute("class", "bi bi-sun-fill");
+    document.querySelector("#dm-icon")?.setAttribute("class", "theme-toggle-dark btn bi bi-moon-fill rounded-pill");
 };
 
 const lightMode = (): void => {
     document.querySelector("body")?.setAttribute("data-bs-theme", "light");
-    document.querySelector("#dm-icon")?.setAttribute("class", "bi bi-moon-fill");
+    document.querySelector("#dm-icon")?.setAttribute("class", "theme-toggle-light btn bi bi-sun-fill rounded-pill");
 };
 
 const changeMode = (): void => {

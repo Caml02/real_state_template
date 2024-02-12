@@ -7,20 +7,7 @@
         align-items: flex-end;
     }
 
-    .dark-mode-boton {
-        width: 3rem;
-        margin-top: 3rem;
-        margin-bottom: 2rem;
-        filter: invert(100%);
-
-        &:hover {
-            cursor: pointer;
-        }
-
-        @include tablet {
-            margin-top: 0;
-        }
-    }
+    
 }
 
 .barra {
