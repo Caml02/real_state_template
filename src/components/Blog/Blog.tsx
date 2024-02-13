@@ -6,7 +6,7 @@ const Blog = () => {
             <header className="header">
                 <div className="contenedor contenido-header">
                     <div className="barra">
-                        <a href="/">
+                        <a href="/real_state_template/">
                             <img src="/src/img/logo.svg" alt="Logotipo de Bienes Raices"/>
                         </a>
 
