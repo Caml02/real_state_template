@@ -6,7 +6,7 @@ const TopSales = () => {
                 <div className="col-sm-12 col-xl-4 mb-3">
                     <div className="card bg-body-tertiary">
                         <div className="card-body">
-                        <img loading="lazy" src="/src/img/anuncio1.jpg" alt="anuncio"/>
+                        <img loading="lazy" src="/build/img/anuncio1.jpg" alt="anuncio"/>
                             <div className="card-title">
                                 <h3 className="m-4">Lake House</h3>
                             </div>
@@ -41,7 +41,7 @@ const TopSales = () => {
                     <div className="card-block">
                         <div className="card bg-body-tertiary">
                             <div className="card-body">
-                            <img loading="lazy" src="/src/img/anuncio2.jpg" alt="anuncio"/>
+                            <img loading="lazy" src="/build/img/anuncio2.jpg" alt="anuncio"/>
                                 <div className="card-title">
                                     <h3 className="m-4">Lake House</h3>
                                 </div>
