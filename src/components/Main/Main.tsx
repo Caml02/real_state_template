@@ -13,7 +13,7 @@ function Main() {
       <header className="header inicio">
         <div className="contenedor contenido-header">
             <div className="barra">
-                <a href="/">
+                <a href="/real_state_template/">
                     <img src={logo} alt="Logotipo de Bienes Raices"/>
                 </a>
 
@@ -23,8 +23,8 @@ function Main() {
                         <i className="bi bi-list"></i>
                     </button>
                     <div className="navegacion d-lg-flex">
-                        <a href="/AboutUs">Nosotros</a>
-                        <a href="/Adds">Anuncios</a>
+                        <a href="/real_state_template/AboutUs">Nosotros</a>
+                        <a href="/real_state_template/Adds">Anuncios</a>
                         <a href="/Blog">Blog</a>
                         <a href="/ContactUs">Contacto</a>        
                     </div>
