@@ -1,3 +1,4 @@
+import logo from '../../img/logo.svg'
 import { changeMode } from "../../utils/DarkMode";
 
 const ContactUs = () => {
@@ -7,7 +8,7 @@ const ContactUs = () => {
                 <div className="contenedor contenido-header">
                     <div className="barra">
                         <a href="/real_state_template/">
-                            <img src="/src/img/logo.svg" alt="Logotipo de Bienes Raices"/>
+                        <img src={logo} alt="Logotipo de Bienes Raices"/>
                         </a>
 
                         <div className="derecha mb-4">
