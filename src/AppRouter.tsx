@@ -10,7 +10,7 @@ import BlogReview from './components/Blog/BlogReview';
 const AppRouter = () => {
     return (
         <Routes>
-            <Route  path="/real_state_template" element={<Main />} />
+            <Route  path="/real_state_template/" element={<Main />} />
             <Route  path="/ContactUs" element={<ContactUs />} />
             <Route  path="/AboutUs" element={<AboutUs />} />
             <Route  path="/Blog" element={<Blog />} />
