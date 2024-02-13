@@ -11,12 +11,12 @@ const AppRouter = () => {
     return (
         <Routes>
             <Route  path="/real_state_template/" element={<Main />} />
-            <Route  path="/ContactUs" element={<ContactUs />} />
-            <Route  path="/AboutUs" element={<AboutUs />} />
-            <Route  path="/Blog" element={<Blog />} />
-            <Route  path="/BlogReview" element={<BlogReview />} />            
-            <Route  path="/Adds" element={<Adds />} />
-            <Route  path="/Add" element={<Add />} />
+            <Route  path="real_state_template/ContactUs" element={<ContactUs />} />
+            <Route  path="/real_state_template/AboutUs" element={<AboutUs />} />
+            <Route  path="/real_state_template/Blog" element={<Blog />} />
+            <Route  path="/real_state_template/BlogReview" element={<BlogReview />} />            
+            <Route  path="/real_state_template/Adds" element={<Adds />} />
+            <Route  path="/real_state_template/Add" element={<Add />} />
          </Routes>
       );
 }

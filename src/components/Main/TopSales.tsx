@@ -50,15 +50,15 @@ const TopSales = () => {
                                     <p className="precio">$3,0000,000</p>
                                     <ul className="icons">
                                         <li>
-                                            <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                            <img id="properties-icon" className="icon" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc"/>
                                             <p>3</p>
                                         </li>
                                         <li>
-                                            <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                            <img id="properties-icon" className="icon" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
                                             <p>3</p>
                                         </li>
                                         <li>
-                                            <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                            <img id="properties-icon" className="icon" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones"/>
                                             <p>4</p>
                                         </li>
                                     </ul>
