@@ -1,3 +1,6 @@
+import blog1 from "../../img/blog1.jpg";
+import blog2 from "../../img/blog2.jpg";
+
 const BlogMain = () => {
     return (
         <div className="contenedor seccion seccion-inferior">
@@ -6,8 +9,8 @@ const BlogMain = () => {
 
                 <div className="entrada-blog">
                     <div className="imagen">
-                        <a href="/BlogReview">
-                            <img loading="lazy" src="/src/img/blog1.jpg" alt="Texto Entrada Blog"/>
+                        <a href="/real_state_template/BlogReview">
+                            <img loading="lazy" src={blog1} alt="Texto Entrada Blog"/>
                         </a>
                     </div>
 
@@ -25,8 +28,8 @@ const BlogMain = () => {
 
                 <article className="entrada-blog">
                     <div className="imagen">
-                    <a href="/BlogReview">
-                        <img loading="lazy" src="/src/img/blog2.jpg" alt="Texto Entrada Blog"/>
+                    <a href="/real_state_template/BlogReview">
+                        <img loading="lazy" src={blog2} alt="Texto Entrada Blog"/>
                     </a>
                     </div>
 

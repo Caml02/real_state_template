@@ -1,4 +1,7 @@
 import logo from '../../img/logo.svg'
+import icono_wc from '../../img/icono_wc.svg'
+import icono_estacionamiento from '../../img/icono_estacionamiento.svg'
+import icono_dormitorio from '../../img/icono_dormitorio.svg'
 import { changeMode } from "../../utils/DarkMode";
 
 const Add = () => {
@@ -17,10 +20,10 @@ const Add = () => {
                                 <i className="bi bi-list"></i>
                             </button>
                             <div className="navegacion d-lg-flex">
-                                <a href="/">Inicio</a>
-                                <a href="/AboutUs">Nosotros</a>
-                                <a href="/ContactUs">Contacto</a>
-                                <a href="/Blog">Blog</a>        
+                                <a href="/real_state_template/">Inicio</a>
+                                <a href="/real_state_template/AboutUs">Nosotros</a>
+                                <a href="/real_state_template/ContactUs">Contacto</a>
+                                <a href="/real_state_template/Blog">Blog</a>        
                             </div>
 
                             <div className="offcanvas offcanvas-start" data-bs-backdrop="static" tabIndex={-1} id="offCanvaNavBar" aria-labelledby="offCanvaNavBarLabel">
@@ -31,10 +34,10 @@ const Add = () => {
                                 <div className="offcanvas-body">  
                                     <ul className='list-group list-group-flush mx-3 mt-4'>
                                     <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/">Inicio</a>
-                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/Aboutus">Nosotros</a>
-                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple active" href="/Adds">Anuncios</a>
-                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/Blog">Blog</a>
-                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/ContactUs">Contacto</a>
+                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/real_state_template/Aboutus">Nosotros</a>
+                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple active" href="/real_state_template/Adds">Anuncios</a>
+                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/real_state_template/Blog">Blog</a>
+                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/real_state_template/ContactUs">Contacto</a>
                                     </ul>      
                                 </div>  
                             </div>
@@ -62,15 +65,15 @@ const Add = () => {
                                     <p className="precio">$3,0000,000</p>
                                     <ul className="icons">
                                         <li>
-                                            <img className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                            <img className="icon" loading="lazy" src={icono_wc} alt="icono wc"/>
                                             <p>3</p>
                                         </li>
                                         <li>
-                                            <img className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                            <img className="icon" loading="lazy" src={icono_estacionamiento} alt="icono estacionamiento"/>
                                             <p>3</p>
                                         </li>
                                         <li>
-                                            <img className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                            <img className="icon" loading="lazy" src={icono_dormitorio} alt="icono habitaciones"/>
                                             <p>4</p>
                                         </li>
                                     </ul>

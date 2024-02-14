@@ -17,10 +17,10 @@ const BlogReview = () => {
                                 <i className="bi bi-list"></i>
                             </button>
                             <div className="navegacion d-lg-flex">
-                                <a href="/">Inicio</a>
-                                <a href="/Adds">Anuncios</a>
-                                <a href="/AboutUs">Nosotros</a>
-                                <a href="/ContactUs">Contacto</a>        
+                                <a href="/real_state_template/">Inicio</a>
+                                <a href="/real_state_template/Adds">Anuncios</a>
+                                <a href="/real_state_template/AboutUs">Nosotros</a>
+                                <a href="/real_state_template/ContactUs">Contacto</a>        
                             </div>
 
                             <div className="offcanvas offcanvas-start" data-bs-backdrop="static" tabIndex={-1} id="offCanvaNavBar" aria-labelledby="offCanvaNavBarLabel">
@@ -30,11 +30,11 @@ const BlogReview = () => {
                                 </div>
                                 <div className="offcanvas-body">  
                                     <ul className='list-group list-group-flush mx-3 mt-4'>
-                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/">Inicio</a>
-                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/AboutUs">Nosotros</a>
-                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/Adds">Anuncios</a>
-                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple active" href="/Blog">Blog</a>
-                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/ContactUs">Contacto</a>
+                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/real_state_template/">Inicio</a>
+                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/real_state_template/AboutUs">Nosotros</a>
+                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/real_state_template/Adds">Anuncios</a>
+                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple active" href="/real_state_template/Blog">Blog</a>
+                                        <a className="nav-item list-group-item list-group-item-action py-2 ripple" href="/real_state_template/ContactUs">Contacto</a>
                                     </ul>      
                                 </div>  
                             </div>

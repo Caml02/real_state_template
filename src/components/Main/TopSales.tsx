@@ -1,3 +1,7 @@
+import icono_wc from '../../img/icono_wc.svg'
+import icono_estacionamiento from '../../img/icono_estacionamiento.svg'
+import icono_dormitorio from '../../img/icono_dormitorio.svg'
+
 const TopSales = () => {
     return (
         <div className="container">
@@ -15,15 +19,15 @@ const TopSales = () => {
                                 <p className="precio">$3,0000,000</p>
                                 <ul className="icons">
                                     <li>
-                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                        <img className="icon" loading="lazy" src={icono_wc} alt="icono wc"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                        <img className="icon" loading="lazy" src={icono_estacionamiento} alt="icono estacionamiento"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                        <img className="icon" loading="lazy" src={icono_dormitorio} alt="icono habitaciones"/>
                                         <p>4</p>
                                     </li>
                                 </ul>
@@ -50,15 +54,15 @@ const TopSales = () => {
                                     <p className="precio">$3,0000,000</p>
                                     <ul className="icons">
                                         <li>
-                                            <img id="properties-icon" className="icon" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc"/>
+                                            <img className="icon" loading="lazy" src={icono_wc} alt="icono wc"/>
                                             <p>3</p>
                                         </li>
                                         <li>
-                                            <img id="properties-icon" className="icon" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                            <img className="icon" loading="lazy" src={icono_estacionamiento} alt="icono estacionamiento"/>
                                             <p>3</p>
                                         </li>
                                         <li>
-                                            <img id="properties-icon" className="icon" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                            <img className="icon" loading="lazy" src={icono_dormitorio} alt="icono habitaciones"/>
                                             <p>4</p>
                                         </li>
                                     </ul>
@@ -84,15 +88,15 @@ const TopSales = () => {
                                 <p className="precio">$3,0000,000</p>
                                 <ul className="icons">
                                     <li>
-                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_wc.svg" alt="icono wc"/>
+                                        <img className="icon" loading="lazy" src={icono_wc} alt="icono wc"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_estacionamiento.svg" alt="icono estacionamiento"/>
+                                        <img className="icon" loading="lazy" src={icono_estacionamiento} alt="icono estacionamiento"/>
                                         <p>3</p>
                                     </li>
                                     <li>
-                                        <img id="properties-icon" className="icon" loading="lazy" src="/src/img/icono_dormitorio.svg" alt="icono habitaciones"/>
+                                        <img className="icon" loading="lazy" src={icono_dormitorio} alt="icono habitaciones"/>
                                         <p>4</p>
                                     </li>
                                 </ul>
