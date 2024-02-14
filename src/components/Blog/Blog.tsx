@@ -50,7 +50,7 @@ const Blog = () => {
             <div className="contenedor seccion contenido-centrado">
                 <h1>Nuestro Blog</h1>
 
-                <article className="entrada-blog">
+                <div className="entrada-blog">
                     <div className="imagen">
                         <a href="/real_state_template/BlogReview">
                             <img loading="lazy" src={blog1} alt="Texto Entrada Blog"/>
@@ -65,7 +65,7 @@ const Blog = () => {
                             Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
                         </p>
                     </div>
-                </article>
+                </div>
 
                 <div className="entrada-blog">
                     <div className="imagen">
@@ -84,7 +84,7 @@ const Blog = () => {
                     </div>
                 </div>
 
-                <article className="entrada-blog">
+                <div className="entrada-blog">
                     <div className="imagen">
                         <a href="/real_state_template/BlogReview">
                            <img loading="lazy" src={blog3} alt="Texto Entrada Blog" />
@@ -99,9 +99,9 @@ const Blog = () => {
                             Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
                         </p>
                     </div>
-                </article>
+                </div>
 
-                <article className="entrada-blog">
+                <div className="entrada-blog">
                     <div className="imagen">
                         <a href="/real_state_template/BlogReview">
                             <img loading="lazy" src={blog4} alt="Texto Entrada Blog" />
@@ -116,7 +116,7 @@ const Blog = () => {
                             Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
                         </p>
                     </div>
-                </article>
+                </div>
             </div>  
 
             {/**FOOTER */}
