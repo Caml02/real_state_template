@@ -1,4 +1,5 @@
 import logo from '../../img/logo.svg'
+import destacada2 from '../../img/destacada2.jpg'
 import { changeMode } from "../../utils/DarkMode";
 
 const BlogReview = () => {
@@ -46,7 +47,7 @@ const BlogReview = () => {
             <div className="contenedor seccion contenido-centrado">
                 <h1>Guía para la decoración de tu hogar</h1>
 
-                <img loading="lazy" src="/src/img/destacada2.jpg" alt="imagen de la propiedad"/>
+                <img loading="lazy" src={destacada2} alt="imagen de la propiedad"/>
 
                 <p className="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>
 
@@ -67,16 +68,16 @@ const BlogReview = () => {
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                         
                         <li>
-                            <a href="/" className="ms-3">Inicio</a>
+                            <a href="/real_state_template/" className="ms-3">Inicio</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/AboutUs">Nosotros</a>
+                            <a href="/real_state_template/AboutUs">Nosotros</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/ContactUs">Contacto</a>
+                            <a href="/real_state_template/ContactUs">Contacto</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/privacy">Terms - Privacy Policy</a>
+                            <a href="/real_state_template/privacy">Terms - Privacy Policy</a>
                         </li>
                     </ul>
                 </div>

@@ -125,19 +125,19 @@ const ContactUs = () => {
                     <p>Todos los derechos reservados 2024 ©</p>
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                         <li>
-                            <a href="/" className="ms-3">Inicio</a>
+                            <a href="/real_state_template/" className="ms-3">Inicio</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/AboutUs">Nosotros</a>
+                            <a href="/real_state_template/AboutUs">Nosotros</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/Adds">Anuncios</a>
+                            <a href="/real_state_template/Adds">Anuncios</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/Blog">Blog</a>
+                            <a href="/real_state_template/Blog">Blog</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/privacy">Terms - Privacy Policy</a>
+                            <a href="/real_state_template/privacy">Terms - Privacy Policy</a>
                         </li>
                     </ul>
                 </div>

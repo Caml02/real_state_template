@@ -1,4 +1,5 @@
 import logo from '../../img/logo.svg'
+import nosotros from '../../img/nosotros.jpg'
 import { changeMode } from "../../utils/DarkMode";
 import AboutMain from "../Main/AboutMain";
 
@@ -51,7 +52,7 @@ const AboutUs = () => {
 
                 <div className="row">
                     <div className="col-md-6 col-sm-12 imagen">
-                            <img loading="lazy" src="/src/img/nosotros.jpg" alt="Sobre Nosotros" />
+                            <img loading="lazy" src={nosotros} alt="Sobre Nosotros" />
                     </div>
 
                     <div className="col-md-6 col-sm-12  texto-nosotros">
@@ -74,16 +75,16 @@ const AboutUs = () => {
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                         
                         <li>
-                            <a href="/" className="ms-3">Inicio</a>
+                            <a href="/real_state_template/" className="ms-3">Inicio</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/Adds">Anuncios</a>
+                            <a href="/real_state_template/Adds">Anuncios</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/ContactUs">Contacto</a>
+                            <a href="/real_state_template/ContactUs">Contacto</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/privacy">Terms - Privacy Policy</a>
+                            <a href="/real_state_template/privacy">Terms - Privacy Policy</a>
                         </li>
                     </ul>
                 </div>

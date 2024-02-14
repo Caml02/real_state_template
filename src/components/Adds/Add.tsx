@@ -2,6 +2,7 @@ import logo from '../../img/logo.svg'
 import icono_wc from '../../img/icono_wc.svg'
 import icono_estacionamiento from '../../img/icono_estacionamiento.svg'
 import icono_dormitorio from '../../img/icono_dormitorio.svg'
+import anuncio1 from '../../img/anuncio1.jpg'
 import { changeMode } from "../../utils/DarkMode";
 
 const Add = () => {
@@ -56,7 +57,7 @@ const Add = () => {
                     <div className="col-12 mb-3">
                         <div className="card bg-body-tertiary">
                             <div className="card-body">
-                            <img loading="lazy" src="/src/img/anuncio1.jpg" alt="anuncio"/>
+                            <img loading="lazy" src={anuncio1} alt="anuncio"/>
                                 <div className="card-title">
                                     <h3 className="m-4">Lake House</h3>
                                 </div>
@@ -94,19 +95,19 @@ const Add = () => {
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                         
                         <li>
-                            <a href="/" className="ms-3">Inicio</a>
+                            <a href="/real_state_template/" className="ms-3">Inicio</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/AboutUs">Nosotros</a>
+                            <a href="/real_state_template/AboutUs">Nosotros</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/Blog">Blog</a>
+                            <a href="/real_state_template/Blog">Blog</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/ContactUs">Contacto</a>
+                            <a href="/real_state_template/ContactUs">Contacto</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/privacy">Terms - Privacy Policy</a>
+                            <a href="/real_state_template/privacy">Terms - Privacy Policy</a>
                         </li>
                     </ul>
                 </div>

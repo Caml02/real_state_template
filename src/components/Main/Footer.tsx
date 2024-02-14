@@ -5,19 +5,19 @@ const Footer = () => {
                 <p>Todos los derechos reservados 2024 ©</p>
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li className="ms-3">
-                        <a href="/AboutUs">Nosotros</a>
+                        <a href="/real_state_template/AboutUs">Nosotros</a>
                     </li>
                     <li className="ms-3">
-                        <a href="/Adds">Anuncios</a>
+                        <a href="/real_state_template/Adds">Anuncios</a>
                     </li>
                     <li>
-                        <a href="/Blog" className="ms-3">Blog</a>
+                        <a href="/real_state_template/Blog" className="ms-3">Blog</a>
                     </li>
                     <li>
-                        <a href="/ContactUs" className="ms-3">Contacto</a>
+                        <a href="/real_state_template/ContactUs" className="ms-3">Contacto</a>
                     </li>
                     <li>
-                        <a href="/privacy" className="ms-3">Terms - Privacy Policy</a>
+                        <a href="/real_state_template/privacy" className="ms-3">Terms - Privacy Policy</a>
                     </li>
                 </ul>
             </div>

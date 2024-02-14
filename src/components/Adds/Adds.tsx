@@ -2,6 +2,12 @@ import logo from '../../img/logo.svg'
 import icono_wc from '../../img/icono_wc.svg'
 import icono_estacionamiento from '../../img/icono_estacionamiento.svg'
 import icono_dormitorio from '../../img/icono_dormitorio.svg'
+import anuncio1 from '../../img/anuncio1.jpg'
+import anuncio2 from '../../img/anuncio2.jpg'
+import anuncio3 from '../../img/anuncio3.jpg'
+import anuncio4 from '../../img/anuncio4.jpg'
+import anuncio5 from '../../img/anuncio5.jpg'
+import anuncio6 from '../../img/anuncio6.jpg'
 import { changeMode } from "../../utils/DarkMode";
 
 const Adds = () => {
@@ -58,7 +64,7 @@ const Adds = () => {
                     <div className="col-sm-12 col-xl-4 mb-3">
                         <div className="card bg-body-tertiary">
                             <div className="card-body">
-                            <img loading="lazy" src="/src/img/anuncio1.jpg" alt="anuncio"/>
+                            <img loading="lazy" src={anuncio1} alt="anuncio"/>
                                 <div className="card-title">
                                     <h3 className="m-4">Lake House</h3>
                                 </div>
@@ -80,7 +86,7 @@ const Adds = () => {
                                         </li>
                                     </ul>
 
-                                    <a href="/Add" className="btn orangeBtn btn-lg btn-block">
+                                    <a href="/real_state_template/Add" className="btn orangeBtn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>
@@ -94,7 +100,7 @@ const Adds = () => {
                         <div className="card-block">
                             <div className="card bg-body-tertiary">
                                 <div className="card-body">
-                                <img loading="lazy" src="/src/img/anuncio2.jpg" alt="anuncio"/>
+                                <img loading="lazy" src={anuncio2} alt="anuncio"/>
                                     <div className="card-title">
                                         <h3 className="m-4">Lake House</h3>
                                     </div>
@@ -116,7 +122,7 @@ const Adds = () => {
                                             </li>
                                         </ul>
 
-                                        <a href="/Add" className="orangeBtn btn btn-lg btn-block">
+                                        <a href="/real_state_template/Add" className="orangeBtn btn btn-lg btn-block">
                                             Ver Propiedad
                                         </a>
                                     </div>
@@ -130,7 +136,7 @@ const Adds = () => {
                     <div className="col-sm-12 col-xl-4 mb-3">
                         <div className="card bg-body-tertiary">
                             <div className="card-body">
-                            <img loading="lazy" src="/src/img/anuncio3.jpg" alt="anuncio"/>
+                            <img loading="lazy" src={anuncio3} alt="anuncio"/>
                                 <div className="card-title">
                                     <h3 className="m-4">Lake House</h3>
                                 </div>
@@ -152,7 +158,7 @@ const Adds = () => {
                                         </li>
                                     </ul>
 
-                                    <a href="/Add" id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
+                                    <a href="/real_state_template/Add" id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>
@@ -165,7 +171,7 @@ const Adds = () => {
                     <div className="col-sm-12 col-xl-4 mb-3">
                         <div className="card bg-body-tertiary">
                             <div className="card-body">
-                            <img loading="lazy" src="/src/img/anuncio4.jpg" alt="anuncio"/>
+                            <img loading="lazy" src={anuncio4} alt="anuncio"/>
                                 <div className="card-title">
                                     <h3 className="m-4">Lake House</h3>
                                 </div>
@@ -187,7 +193,7 @@ const Adds = () => {
                                         </li>
                                     </ul>
 
-                                    <a href="/Add" className="btn orangeBtn btn-lg btn-block">
+                                    <a href="/real_state_template/Add" className="btn orangeBtn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>
@@ -201,7 +207,7 @@ const Adds = () => {
                         <div className="card-block">
                             <div className="card bg-body-tertiary">
                                 <div className="card-body">
-                                <img loading="lazy" src="/src/img/anuncio5.jpg" alt="anuncio"/>
+                                <img loading="lazy" src={anuncio5} alt="anuncio"/>
                                     <div className="card-title">
                                         <h3 className="m-4">Lake House</h3>
                                     </div>
@@ -223,7 +229,7 @@ const Adds = () => {
                                             </li>
                                         </ul>
 
-                                        <a href="/Add" className="orangeBtn btn btn-lg btn-block">
+                                        <a href="/real_state_template/Add" className="orangeBtn btn btn-lg btn-block">
                                             Ver Propiedad
                                         </a>
                                     </div>
@@ -237,7 +243,7 @@ const Adds = () => {
                     <div className="col-sm-12 col-xl-4 mb-3">
                         <div className="card bg-body-tertiary">
                             <div className="card-body">
-                            <img loading="lazy" src="/src/img/anuncio6.jpg" alt="anuncio"/>
+                            <img loading="lazy" src={anuncio6} alt="anuncio"/>
                                 <div className="card-title">
                                     <h3 className="m-4">Lake House</h3>
                                 </div>
@@ -259,7 +265,7 @@ const Adds = () => {
                                         </li>
                                     </ul>
 
-                                    <a href="/Add" id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
+                                    <a href="/real_state_template/Add" id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>

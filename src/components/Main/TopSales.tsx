@@ -1,5 +1,8 @@
 import icono_wc from '../../img/icono_wc.svg'
 import icono_estacionamiento from '../../img/icono_estacionamiento.svg'
+import anuncio1 from '../../img/anuncio1.jpg'
+import anuncio2 from '../../img/anuncio2.jpg'
+import anuncio3 from '../../img/anuncio3.jpg'
 import icono_dormitorio from '../../img/icono_dormitorio.svg'
 
 const TopSales = () => {
@@ -10,7 +13,7 @@ const TopSales = () => {
                 <div className="col-sm-12 col-xl-4 mb-3">
                     <div className="card bg-body-tertiary">
                         <div className="card-body">
-                        <img loading="lazy" src="/build/img/anuncio1.jpg" alt="anuncio"/>
+                        <img loading="lazy" src={anuncio1} alt="anuncio"/>
                             <div className="card-title">
                                 <h3 className="m-4">Lake House</h3>
                             </div>
@@ -32,7 +35,7 @@ const TopSales = () => {
                                     </li>
                                 </ul>
 
-                                <a href="/Add" className="btn orangeBtn btn-lg btn-block">
+                                <a href="/real_state_template/Add" className="btn orangeBtn btn-lg btn-block">
                                     Ver Propiedad
                                 </a>
                             </div>
@@ -45,7 +48,7 @@ const TopSales = () => {
                     <div className="card-block">
                         <div className="card bg-body-tertiary">
                             <div className="card-body">
-                            <img loading="lazy" src="/build/img/anuncio2.jpg" alt="anuncio"/>
+                            <img loading="lazy" src={anuncio2} alt="anuncio"/>
                                 <div className="card-title">
                                     <h3 className="m-4">Lake House</h3>
                                 </div>
@@ -67,7 +70,7 @@ const TopSales = () => {
                                         </li>
                                     </ul>
 
-                                    <a href="/Add" className="orangeBtn btn btn-lg btn-block">
+                                    <a href="/real_state_template/Add" className="orangeBtn btn btn-lg btn-block">
                                         Ver Propiedad
                                     </a>
                                 </div>
@@ -79,7 +82,7 @@ const TopSales = () => {
                 <div className="col-sm-12 col-xl-4 mb-3">
                     <div className="card bg-body-tertiary">
                         <div className="card-body">
-                        <img loading="lazy" src="/src/img/anuncio3.jpg" alt="anuncio"/>
+                        <img loading="lazy" src={anuncio3} alt="anuncio"/>
                             <div className="card-title">
                                 <h3 className="m-4">Lake House</h3>
                             </div>
@@ -101,7 +104,7 @@ const TopSales = () => {
                                     </li>
                                 </ul>
 
-                                <a href="/Add" id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
+                                <a href="/real_state_template/Add" id="PropertyButton" className="orangeBtn btn btn-lg btn-block">
                                     Ver Propiedad
                                 </a>
                             </div>
@@ -110,7 +113,7 @@ const TopSales = () => {
                 </div>
 
                 <div className="text-end mb-4">
-                    <a id="AllPropertiesButton" href="/Adds" role="button" className="btn btn-lg">Ver Todas</a>
+                    <a id="AllPropertiesButton" href="/real_state_template/Adds" role="button" className="btn btn-lg">Ver Todas</a>
                 </div>  
             </div>
         </div>

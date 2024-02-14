@@ -1,4 +1,8 @@
 import logo from '../../img/logo.svg'
+import blog1 from '../../img/blog1.jpg'
+import blog2 from '../../img/blog2.jpg'
+import blog3 from '../../img/blog3.jpg'
+import blog4 from '../../img/blog4.jpg'
 import { changeMode } from "../../utils/DarkMode";
 
 const Blog = () => {
@@ -49,7 +53,7 @@ const Blog = () => {
                 <article className="entrada-blog">
                     <div className="imagen">
                         <a href="/real_state_template/BlogReview">
-                            <img loading="lazy" src="/src/img/blog1.jpg" alt="Texto Entrada Blog"/>
+                            <img loading="lazy" src={blog1} alt="Texto Entrada Blog"/>
                         </a>
                     </div>
 
@@ -66,7 +70,7 @@ const Blog = () => {
                 <div className="entrada-blog">
                     <div className="imagen">
                         <a href="/real_state_template/BlogReview">
-                            <img loading="lazy" src="/src/img/blog2.jpg" alt="Texto Entrada Blog" />
+                            <img loading="lazy" src={blog2} alt="Texto Entrada Blog" />
                         </a>
                     </div>
 
@@ -83,7 +87,7 @@ const Blog = () => {
                 <article className="entrada-blog">
                     <div className="imagen">
                         <a href="/real_state_template/BlogReview">
-                           <img loading="lazy" src="/src/img/blog3.jpg" alt="Texto Entrada Blog" />
+                           <img loading="lazy" src={blog3} alt="Texto Entrada Blog" />
                         </a>
                     </div>
 
@@ -100,7 +104,7 @@ const Blog = () => {
                 <article className="entrada-blog">
                     <div className="imagen">
                         <a href="/real_state_template/BlogReview">
-                            <img loading="lazy" src="/src/img/blog4.jpg" alt="Texto Entrada Blog" />
+                            <img loading="lazy" src={blog4} alt="Texto Entrada Blog" />
                         </a>
                     </div>
 
@@ -123,16 +127,16 @@ const Blog = () => {
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                         
                         <li>
-                            <a href="/" className="ms-3">Inicio</a>
+                            <a href="/real_state_template/" className="ms-3">Inicio</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/AboutUs">Nosotros</a>
+                            <a href="/real_state_template/AboutUs">Nosotros</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/ContactUs">Contacto</a>
+                            <a href="/real_state_template/ContactUs">Contacto</a>
                         </li>
                         <li className="ms-3">
-                            <a href="/privacy">Terms - Privacy Policy</a>
+                            <a href="/real_state_template/privacy">Terms - Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
